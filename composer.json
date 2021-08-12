@@ -1,0 +1,41 @@
+{
+  "name": "pollen-solutions/encryption",
+  "description": "Pollen Solutions - Encryption Component - Tools to encrypting and decrypting with AES-256 and AES-128 encryption.",
+  "homepage": "https://www.presstify.com/pollen-solutions/encryption/",
+  "keywords": [
+    "pollen-solutions",
+    "component",
+    "encrypt",
+    "decrypt"
+  ],
+  "time": "2021-08-12",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jordy Manner",
+      "email": "jordy@presstify.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "ext-openssl": "*",
+    "pollen-solutions/support": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pollen\\Encryption\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pollen\\Encryption\\Test\\": "tests"
+    }
+  },
+  "suggest": {
+    "pollen-solutions/container" : "Pollen Solutions - Container Component - PSR-11 ready Dependencies Injection Container."
+  },
+  "minimum-stability": "dev"
+}
